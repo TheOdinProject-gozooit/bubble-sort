@@ -21,3 +21,8 @@ def sorted?(arr)
   end
   true
 end
+
+# Add TOP example so can be run with "ruby ./bubble_sort.rb"
+arr = [4, 3, 78, 2, 0, 2]
+puts "Sorting array #{arr} with bubble sort :"
+puts bubble_sort(arr) # return [0,2,2,3,4,78]
